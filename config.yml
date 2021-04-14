@@ -1,0 +1,46 @@
+---
+pipeline: 
+output_dir: profiles
+platemap_well_column: Metadata_well_position
+aggregate:
+  perform: false
+  plate_column: Metadata_Plate
+  well_column: Metadata_Well
+  method: median
+  features: infer
+annotate:
+  perform: true
+  well_column: Metadata_Well
+  external : 
+normalize:
+  perform: true
+  method: mad_robustize
+  features: infer
+  negcon: true
+feature_select:
+  perform: true
+  features: infer
+  negcon: true
+  operations:
+    - variance_threshold
+    - correlation_threshold
+    - drop_na_columns
+    - blocklist
+options:
+  compression: gzip
+  float_format: "%.5g"
+  samples: all
+---
+batch: 
+plates:
+  - name: 
+    cell: 
+    process: true
+process: true
+---
+batch:
+plates:
+  - name:
+	cell:
+	process: true
+process: true
