@@ -1,0 +1,579 @@
+---
+pipeline: 2019_07_11_JUMP-CP
+output_dir: profiles
+platemap_well_column: Metadata_well_position
+compartments: cells,cytoplasm,nuclei
+feature_select:
+  perform: true
+  features: infer
+  level: plate
+  operations:
+    - variance_threshold
+    - correlation_threshold
+    - drop_na_columns
+    - blocklist
+feature_select_negcon:
+  perform: true
+  features: infer
+  level: plate
+  operations:
+    - variance_threshold
+    - correlation_threshold
+    - drop_na_columns
+    - blocklist
+options:
+  compression: gzip
+  float_format: "%.5g"
+  samples: all
+---
+batch: 2020_11_04_CPJUMP1_1a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_1b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_1c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_2a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_2b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_2c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_3a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_3b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_3c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_4a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_4b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_4c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_5a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_5b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_5c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_6a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_6b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_6c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_7a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_7b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_7c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_8a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_8b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_8c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_9a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_9b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_9c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_10a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_10b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_10c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_11a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_11b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_11c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_12a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_12b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_12c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_13a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_13b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_13c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_14a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_14b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_14c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_15a
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_15b
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_15c
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
+---
+batch: 2020_11_04_CPJUMP1_16
+plates:
+  - name: BR00117015
+    process: true
+  - name: BR00117016
+    process: true
+  - name: BR00117017
+    process: true
+  - name: BR00117019
+    process: true
+process: true
